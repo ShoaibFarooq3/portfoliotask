@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,500;1,400&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+  font-family: "Roboto", sans-serif;
+}
+li {
+  list-style: none;
+}
+.dotted-bg {
+  position: inherit;
+  margin-top: -165px;
+  margin-left: -302px;
+}
+a {
+  text-decoration: none;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 1.5rem;
+}
+.navbar-img {
+  width: 140px;
+  margin-left: 48px;
+  /* margin-top: 8px; */
+}
+.hamburger {
+  display: none;
+}
+.bar {
+  display: block;
+  width: 25px;
+  height: 3px;
+  margin: 5px auto;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  background-color: #101010;
+}
+.nav-menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-item {
+  margin-left: 5rem;
+}
+.nav-link {
+  font-size: 1.6rem;
+  font-weight: 400;
+  color: #fff;
+  margin-right: 33px;
+  height: 117px;
+  font-family: "PoppinsMedium";
+}
+.nav-item:hover {
+  display: block;
+  bottom: 0;
+  background-color: #ff0513;
+  transition: 1s ease;
+  cursor: pointer;
+}
+.nav-logo {
+  font-size: 2.1rem;
+  font-weight: 500;
+  color: #fff;
+}
+.get-btn {
+  color: white;
+  border-radius: 35px;
+  background-color: #0e0c38;
+  width: 135px;
+  height: 42px;
+  cursor: pointer;
+  border-color: white;
+  font-family: "RalewayRegular";
+}
+.get-btn:hover {
+  cursor: pointer;
+  background-color: red;
+}

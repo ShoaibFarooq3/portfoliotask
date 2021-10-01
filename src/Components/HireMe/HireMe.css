@@ -1,0 +1,62 @@
+.Hire-me-wrap {
+  background-color: #040b33;
+}
+.main-heading h1 {
+  font-size: 26px;
+}
+.main-heading p {
+  font-size: 16px;
+}
+.hire-heading-wrap {
+  font-family: "PoppinsSemiBold";
+}
+.hire-heading-wrap2 {
+  font-family: "PoppinsLight";
+}
+.hire-form-wrap-text {
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 40px;
+  margin-bottom: 30px;
+}
+.txt-box-hire {
+  width: 350px;
+  height: 50px;
+  margin-right: 38px;
+}
+.phone-hire {
+  margin-right: 30px;
+}
+.hire-budget-option {
+  height: 50px;
+  width: 350px;
+  margin-right: 9px;
+  justify-content: space-between;
+  display: flex;
+}
+.hire-textarea {
+  margin-bottom: 50px;
+  margin-right: 28px;
+}
+.btn-style {
+  max-width: 203px;
+  width: 100%;
+  max-height: 260px;
+  /* height: 100%; */
+  border-radius: 43px;
+  font-size: 38px;
+  margin-top: 29px;
+  background: transparent;
+  color: white;
+  height: 100%;
+  margin-right: 83px;
+  /* border-color: white; */
+  margin-bottom: 50px;
+  font-family: "RalewayRegular";
+}
+.btn-style:hover {
+  background-color: red;
+  cursor: pointer;
+}

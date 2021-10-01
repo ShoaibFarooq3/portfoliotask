@@ -1,0 +1,19 @@
+.footer-main-wrap{
+    background-color: #040221;
+}
+.footer-contact-text:hover{
+    cursor: pointer;
+}
+.footer-contact-text{
+    font-family: "RalewayMedium";
+}
+.footer-header{
+    margin-top: 60px;
+}
+.footer-img-bottom:hover{
+    cursor: pointer;
+}
+.footer-copyright{
+    margin-bottom: 30px;
+    font-family: "PoppinsRegular";
+}

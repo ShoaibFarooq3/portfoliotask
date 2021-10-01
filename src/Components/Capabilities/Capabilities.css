@@ -1,0 +1,62 @@
+.Capabilities-wrap{
+    background-color: #0E0C38;
+}
+.capa-text-wrap h1{
+    font-size: 40px;
+    font-family: "PoppinsSemiBold";
+}
+.head-wrap:after {
+    content: "";
+    display: block;
+    width: 238px;
+    height: 1px;
+    background: red;
+    right: 50%;
+    left: 41%;
+    position: absolute;
+    z-index: 999;
+  }
+.para-wrap{
+    font-size: 18px;
+    font-family: "PoppinsLight";
+}
+.web-main-wrap{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 55px;
+    margin-bottom: 65px;
+    flex-wrap: wrap;
+    flex-direction: row;
+    /* width: 38%; */
+}
+.web-wrap{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 74px;
+    width: 434px;
+}
+.img-map-wrap{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+    flex-wrap: wrap;
+}
+.web-wrap-text h2, p{
+    font-family: "PoppinsLight";
+}
+
+@media (max-width:768px ){
+    .capa-text-wrap{
+        width: 100%;
+        height: auto;
+        margin-left: 39px;
+        text-align: center;
+        align-items: center;
+    }
+    .web-main-wrap {
+        display: block;
+    }
+
+}

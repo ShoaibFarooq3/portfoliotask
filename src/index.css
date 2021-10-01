@@ -5,9 +5,56 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  max-width: 1750px;
+  width: 100%;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+@font-face {
+  font-family: "PoppinsRegular";
+  src: local("PoppinsRegular"),
+   url("./fonts/Poppins/Poppins-Regular.ttf") format("truetype");
+  font-weight: bold;
+  }
+  @font-face {
+    font-family: "PoppinsBold";
+    src: local("PoppinsBold"),
+     url("./fonts/Poppins/Poppins-Bold.ttf") format("truetype");
+    font-weight: bold;
+    }
+
+  @font-face {
+    font-family: "PoppinsSemiBold";
+    src: local("PoppinsSemiBold"),
+     url("./fonts/Poppins/Poppins-SemiBold.ttf") format("truetype");
+    font-weight: bold;
+    }
+
+  @font-face {
+    font-family: "PoppinsLight";
+    src: local("PoppinsLight"),
+     url("./fonts/Poppins/Poppins-Light.ttf") format("truetype");
+    font-weight: bold;
+    }
+  @font-face {
+    font-family: "PoppinsMedium";
+    src: local("PoppinsMedium"),
+     url("./fonts/Poppins/Poppins-Medium.ttf") format("truetype");
+    font-weight: bold;
+    }
+    @font-face {
+      font-family: "RalewayMedium";
+      src: local("RalewayMedium"),
+       url("./fonts/Raleway/static/Raleway-Medium.ttf") format("truetype");
+      font-weight: bold;
+      }
+      @font-face {
+        font-family: "RalewayRegular";
+        src: local("RalewayRegular"),
+         url("./fonts/Raleway/static/Raleway-Regular.ttf") format("truetype");
+        font-weight: bold;
+        }

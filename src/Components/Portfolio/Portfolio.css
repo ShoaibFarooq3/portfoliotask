@@ -1,0 +1,98 @@
+body {
+  background-color: #040221;
+}
+.Main-wrapper-portfolio {
+  margin-bottom: 78px;
+}
+.main-head {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-left: 57px;
+  padding-right: 217px;
+}
+.main-head h1{
+  font-family: "PoppinsLight";
+}
+li {
+  margin-right: 20px;
+}
+
+ol {
+  text-decoration: none;
+}
+.icon-bdr {
+  border-radius: 50%;
+  border: 1px solid white;
+  padding: 20px;
+  margin-right: 10px;
+}
+.icon-wrap {
+  display: flex;
+  max-width: 114px;
+  width: 100%;
+  justify-content: space-between;
+}
+.icon-bdr:hover {
+  background-color: red;
+  cursor: pointer;
+}
+.port-heading-img {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 40px;
+  transition-delay: 5s ease;
+}
+.img-head {
+  border-radius: 50px;
+  max-width: 310px;
+  width: 100%;
+  margin-right: 20px;
+  margin-bottom: 13px;
+}
+.img-head:hover {
+  cursor: pointer;
+  -moz-box-shadow: 0 0 10px #ccc;
+  -webkit-box-shadow: 0 0 10px #ccc;
+  box-shadow: 0 0 10px #ccc;
+}
+
+/* Tab Components Css */
+.tab-list {
+  border-bottom: 1px solid #ccc;
+  padding-left: 55px;
+  align-items: flex-start;
+  display: flex;
+  cursor: pointer;
+}
+
+.tab-list-item {
+  display: inline-block;
+  list-style: none;
+  margin-bottom: -1px;
+  padding: 0.5rem 0.75rem;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.tab-list-active {
+  background-color: red;
+  border: solid #fff;
+  border-width: 1px 1px 0 1px;
+  border-radius: 1px;
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .Main-wrapper-portfolio {
+    display: block;
+  }
+  .tab-list {
+    display: block;
+  }
+  .port-heading-img {
+    width: 84%;
+    /* height: auto; */
+    display: block;
+  }
+}
