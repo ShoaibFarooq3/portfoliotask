@@ -4,6 +4,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+ 
 }
 html {
   font-size: 62.5%;
@@ -20,11 +21,16 @@ li {
 a {
   text-decoration: none;
 }
+.img-navbar-main-dot{
+  width: 100%;
+}
 .navbar {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 1rem 1.5rem;
+  max-height: 100px;
+  height: 100%;
 }
 .navbar-img {
   width: 140px;
@@ -51,21 +57,28 @@ a {
 .nav-item {
   margin-left: 5rem;
 }
+
 .nav-link {
   font-size: 1.6rem;
   font-weight: 400;
   color: #fff;
   margin-right: 33px;
-  height: 117px;
   font-family: "PoppinsMedium";
 }
-.nav-item:hover {
+.nav-link:hover{
+  color: red;
+  cursor: pointer;
+}
+/* .nav-item:hover {
+  content: " ";
   display: block;
   bottom: 0;
+  height: 100%;
   background-color: #ff0513;
   transition: 1s ease;
   cursor: pointer;
-}
+  z-index: 2;
+} */
 .nav-logo {
   font-size: 2.1rem;
   font-weight: 500;
@@ -81,7 +94,11 @@ a {
   border-color: white;
   font-family: "RalewayRegular";
 }
-.get-btn:hover {
+/* .get-btn:hover {
   cursor: pointer;
   background-color: red;
-}
+} */
+
+
+
+

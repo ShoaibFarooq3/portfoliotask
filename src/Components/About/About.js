@@ -27,6 +27,9 @@ const About = () => {
                 <div className="image-head">
                     <img src="./images/Layer-4.jpg" alt="Head-img" />
                 </div>
+                {/* <div className="img-small-right">
+                <img src="./images/ia_100000004.png" alt="img" />
+                </div> */}
                 
             </div>
         </div>

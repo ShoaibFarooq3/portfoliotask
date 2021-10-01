@@ -7,6 +7,9 @@ const Navbar = () => {
             <header class="header">
                 <nav class="navbar">
                     <a><img src="./images/Portfolio.png" className="navbar-img"></img></a>
+                    <div >
+                        <img src="./images/ia_100000003.png" className="img-navbar-main-dot" alt="img" ></img>
+                    </div>
                     <ul class="nav-menu">
                         <li class="nav-item">
                             <a class="nav-link">About</a>

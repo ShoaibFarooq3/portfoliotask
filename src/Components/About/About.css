@@ -1,95 +1,102 @@
-body{
-    background-color: #0e0c38;
-    color: white;
+body {
+  background-color: #0e0c38;
+  color: white;
 }
-.h1-text{
-    font-size: 150px;
-    font-family: "PoppinsBold";
+.h1-text {
+  font-size: 150px;
+  font-family: "PoppinsBold";
 }
-.p-head{
-    font-size: 35px;
-    margin-left: 10px;
-    font-family: "PoppinsLight";
-    /* margin-bottom: -143px; */
+.p-head {
+  font-size: 35px;
+  margin-top: 100px;
+  margin-left: 10px;
+  font-family: "PoppinsLight";
+
 }
-.text-wrap{
-    text-align: left;
-    margin-left: 84px;
+.text-wrap {
+  text-align: left;
+  margin-left: 84px;
 }
-.p2-head{
-    /* margin-top: -105px; */
-    font-size: 24px;
-    font-family: "PoppinsLight";
+.p2-head {
+  /* margin-top: -105px; */
+  font-size: 24px;
+  font-family: "PoppinsLight";
 }
-.p3-head{
-    font-size: 42px;
+.p3-head {
+  font-size: 42px;
 }
-.img-grey{
-    position: absolute;
-    margin-left: -270px;
+.img-grey {
+  position: absolute;
+  margin-left: -270px;
 }
-.span-text-color{
-    color: red;
-    font-family: "PoppinsLight";
+.span-text-color {
+  color: red;
+  font-family: "PoppinsLight";
 }
-.image-head img{
-        max-width: 500px;
-        width: 100%;
-      
-        margin-left: 30px;
+.image-head img {
+  max-width: 518px;
+  width: 100%;
+  margin-left: 30px;
+  max-height: 531px;
+  height: 100%;
+  margin-top: 118px;
 }
-.main-wrapper{
-    display: flex;
-    flex-direction: row;
+.img-small-right{
+  z-index: -1;
+  margin-top: 362px;
+  /* width: 50%; */
+  margin-right: -36px;
 }
-.find-imgs{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    margin-left: -77px;
+.main-wrapper {
+  display: flex;
+  flex-direction: row;
 }
-.find-imgs:hover{
-    cursor: pointer;
+.find-imgs {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-left: -77px;
 }
-.btn-style-about{
-    max-width: 215px;
-    width: 100%;
-    max-height: 354px;
-    border-radius: 43px;
-    font-size: 36px;
-    margin-top: 29px;
-    background: transparent;
-    color: white;
-    height: 100%;
-    margin-right: 83px;
-    border-color: white;
-    margin-bottom: 50px;
-    font-family: "RalewayRegular";
+.find-imgs:hover {
+  cursor: pointer;
+}
+.btn-style-about {
+  max-width: 215px;
+  width: 100%;
+  max-height: 354px;
+  border-radius: 43px;
+  font-size: 36px;
+  margin-top: 29px;
+  background: transparent;
+  color: white;
+  height: 100%;
+  margin-right: 83px;
+  border-color: white;
+  margin-bottom: 50px;
+  font-family: "RalewayRegular";
 }
 
-.btn-style-about:hover{
-    background-color: red;
-    cursor: pointer;
-    -moz-box-shadow: 0 0 10px #ccc;
+.btn-style-about:hover {
+  background-color: red;
+  cursor: pointer;
+  -moz-box-shadow: 0 0 10px #ccc;
   -webkit-box-shadow: 0 0 10px #ccc;
   box-shadow: 0 0 10px #ccc;
   font-family: "RalewayRegular";
-
 }
 
-@media (max-width:768px ){
-    .image-head img {
-        width: 100%;
-        height: auto;
-       
-    }
-    .text-wrap {
-        width: 100%;
-    }
-    .h1-text {
-        font-size: 73px;
-    }
-    .main-wrapper {
-        display: block;
-    }
+@media (max-width: 768px) {
+  .image-head img {
+    width: 100%;
+    height: auto;
+  }
+  .text-wrap {
+    width: 100%;
+  }
+  .h1-text {
+    font-size: 73px;
+  }
+  .main-wrapper {
+    display: block;
+  }
 }
